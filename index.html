@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poodle Translator</title>
+    <style>
+        body{
+            font-family:Brushstroke, fantasy;
+            background-image: url(images/got3.jpg) ;background-position: center;background-size:initial;
+            margin: 0%;
+        }
+        textarea{
+            border:solid  black;
+            margin-left: 2rem;
+            
+            width:80%;
+            padding: 2rem;
+        }
+#output{
+    border:solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem 1.3rem;
+    padding:2rem
+}
+button{
+    padding:1rem 1rem;
+    border-radius: 1rem;
+    margin: 0rem 2rem;
+    
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding:1.8rem 0rem;
+  width: 100%;
+  background-color:#143D59;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1rem;
+  
+}
+.nav{
+
+    text-align: center;
+    color:whitesmoke;
+    background-color:#143D59;
+    border: darkblue;
+    margin-bottom: 1.5rem;
+     padding: 2rem 1.5rem;
+     size: 2rem;
+     font-size: 2rem;
+
+}
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav">Winter is Coming!!!!</div>
+    </nav>
+    <textarea id ="txt-input" placeholder="Write here to convert your favourite dialogue in Dotrakhi"></textarea>
+    <hr>
+    
+<button id="btn-trans">Translate to Dotrakhi</button>
+
+<div style="padding:1rem;font-size:large ;margin-left: 1.3rem;">Translation will be here 👎</div>
+<div id="output"></div>
+<hr>
+<footer>
+<div style="text-align: center;font-size:x-large;">About</div>
+    <p>
+        If you are a GOT fan .......then you should learn some dotrakhi slangs or some dialogues which sound sexy and you want to know 
+        the meaning of it .... Use the translator
+        to convert your text from English to Minion speak or Banana language.
+    </p>
+</footer>
+<script src="app.js" type="text/javascript"></script>
+</body>
+</html>
