@@ -1,0 +1,3 @@
+# Dotrakhi-translator
+If you are a GOT fan ......
+try this translator and you can understand dotrakhi without subtitiles
